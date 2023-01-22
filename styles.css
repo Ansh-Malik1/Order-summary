@@ -1,0 +1,83 @@
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:hsl(225, 100%, 94%);
+    padding:25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family:'Red-hat-display',san-serif;
+}
+.music-image{
+    padding-right:10px;
+    padding-top: 10px;
+}
+.head-image{
+    position:relative;
+    overflow: hidden;
+    width:100%;
+    border-radius:10px
+
+}
+.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width:390px;
+    border-radius:25px;
+}
+.card-body{
+    padding:20px;
+    
+}
+.card-body h2{
+    text-align: center;
+    font-weight: 900;
+}
+.card-body p{
+    text-align: center;
+}
+.pay{padding:10px;
+
+}
+.co{
+    margin:4px 40px 50px;
+    align-items: center;
+}
+.plan{
+    background-color: rgb(228, 228, 228);
+    border-radius:20px;
+    text-align: center;
+    display:flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan-l{
+    display:flex;
+    align-items: center;
+
+}
+.plan a{
+    color:blue;
+}
+.plan a:hover{
+    color:rgb(123, 123, 185)
+}
+.pay{
+    display: block;
+    width:100%;
+    margin:auto 1px;
+    background-color: blue;
+}
+.cancel{
+    margin:20px auto;
+    color:rgb(123, 123, 185) ;
+}
+.cancel:hover{
+    color: rgb(186, 186, 186);
+}
+.attribution{
+    padding:30px auto;
+}
